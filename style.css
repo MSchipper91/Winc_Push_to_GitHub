@@ -1,0 +1,95 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.dropdown {
+  height: 60px;
+  position: relative;
+  display: inline;
+}
+.dropdown .btn {
+  width: 60px;
+  height: 60px;
+  background: whitesmoke;
+  background-image: url("images/hamburger_menu.png");
+  background-repeat: no-repeat;
+  background-size: 60%;
+  background-position: center;
+  border: none;
+}
+.dropdown .navbar {
+  display: block;
+  position: absolute;
+  background-color: whitesmoke;
+  margin-top: -3px;
+  transition: all 0.3s ease-in-out;
+}
+.dropdown .navbar ul {
+  display: block;
+  width: 200px;
+  font-size: 30px;
+  margin: 0;
+  padding: 0;
+}
+.dropdown .navbar ul li {
+  display: flex;
+  list-style: none;
+  justify-content: flex-start;
+  padding: 25px;
+  cursor: pointer;
+}
+.dropdown .navbar .home:hover, .dropdown .navbar .home:active {
+  background-color: darkgrey;
+}
+.dropdown .navbar .green:hover, .dropdown .navbar .green:active {
+  background-color: green;
+}
+.dropdown .navbar .red:hover, .dropdown .navbar .red:active {
+  background-color: red;
+}
+.dropdown .navbar .purple:hover, .dropdown .navbar .purple:active {
+  background-color: purple;
+}
+.dropdown .navbar .blue:hover, .dropdown .navbar .blue:active {
+  background-color: blue;
+}
+.dropdown .navbar .yellow:hover, .dropdown .navbar .yellow:active {
+  background-color: yellow;
+}
+
+.btn:hover, .btn:active {
+  cursor: pointer;
+  background-color: chocolate;
+}
+
+.hide {
+  transition: all 0.3s ease-in-out;
+  opacity: 0;
+}
+
+.background-home {
+  background-color: darkgrey;
+}
+
+.background-green {
+  background-color: green;
+}
+
+.background-red {
+  background-color: red;
+}
+
+.background-purple {
+  background-color: purple;
+}
+
+.background-blue {
+  background-color: blue;
+}
+
+.background-yellow {
+  background-color: yellow;
+}/*# sourceMappingURL=style.css.map */

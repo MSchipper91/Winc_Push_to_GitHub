@@ -1,0 +1,108 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+
+}
+
+    .dropdown {
+        height: 60px;
+        position: relative;
+        display: inline;
+
+        .btn {
+            width: 60px;
+            height: 60px;
+            background: whitesmoke;
+            background-image: url("images/hamburger_menu.png");
+            background-repeat: no-repeat;
+            background-size: 60%;
+            background-position: center;
+            border: none;
+        }
+
+        .navbar {
+            display: block;
+            position: absolute;
+            background-color: whitesmoke;
+            margin-top: -3px;
+            transition: all 0.3s ease-in-out;
+        
+            ul {
+                display: block;
+                width: 200px;
+                font-size: 30px;
+                margin: 0;
+                padding: 0;
+
+                li {
+                    display: flex;
+                    list-style: none;
+                    justify-content: flex-start;
+                    padding: 25px;
+                    cursor: pointer;
+                }
+            }    
+
+            .home:hover, .home:active {
+                background-color: darkgrey;
+            }
+        
+            .green:hover, .green:active{
+                background-color: green;
+            }
+        
+            .red:hover, .red:active {
+                background-color: red;
+            }
+        
+            .purple:hover, .purple:active {
+                background-color: purple;
+            }
+        
+            .blue:hover, .blue:active {
+                background-color: blue;
+            }
+        
+            .yellow:hover, .yellow:active {
+                background-color: yellow;
+            }
+        }    
+    }
+
+    .btn:hover, .btn:active {
+        cursor: pointer;
+        background-color: chocolate;
+    }
+
+    .hide {
+        transition: all 0.3s ease-in-out;
+        opacity: 0;
+    }
+
+    .background-home {
+        background-color: darkgrey;
+    }
+    
+    .background-green {
+        background-color: green;
+    }
+    
+    .background-red {
+        background-color: red;
+    }
+    
+    .background-purple {
+        background-color: purple;
+    }
+    
+    .background-blue {
+        background-color: blue;
+    }
+    
+    .background-yellow {
+        background-color: yellow;
+    }
+
+
